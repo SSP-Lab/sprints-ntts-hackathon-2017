@@ -1,5 +1,5 @@
 # sprints-ntts-hackathon-2017
-NTTS 2017 hackathon warm up code
+NTTS 2017 hackathon preparation sprints warm up code
 
 ## Requirements 
 
