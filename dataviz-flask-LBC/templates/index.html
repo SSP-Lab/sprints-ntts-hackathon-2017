@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./static/lib/css//bootstrap.min.css">
+  <link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
+  <link rel="stylesheet" href="./static/lib/css/dc.min.css">
+  <link rel="stylesheet" href="./static/lib/css/leaflet.css">
+  <link rel="stylesheet" href="./static/css/custom.css">
+
+
+</head>
+<body class="application">
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./">Exploration des offres d'emploi du bon coin</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+          <div class="col-sm-3">
+          
+           <div class="row">
+            <div class="col-sm-12">
+             <div class="chart-wrapper">
+              <div class="chart-title">
+                Nombre d'offres mises en ligne
+              </div>
+              <div class="chart-stage">
+                <div id="time-chart"></div>
+              </div>
+             </div>
+            </div>
+           </div>
+          
+           <div class="row">
+            <div class="col-sm-12">
+             <div class="chart-wrapper">
+              <div class="chart-title">
+                Secteur
+              </div>
+              <div class="chart-stage">
+                <div id="sect-row-chart"></div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+          </div>
+
+          <div class="col-sm-3">
+
+           <div class="row"> 
+            <div class="col-sm-12">  
+             <div class="chart-wrapper">
+              <div class="chart-title">
+                Formation 
+              </div>
+              <div class="chart-stage">
+                <div id="formation-row-chart"></div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+           <div class="row">
+            <div class="col-sm-12">  
+             <div class="chart-wrapper">
+              <div class="chart-title">
+                Fonctions
+              </div>
+              <div class="chart-stage">
+                <div id="fonctions-pie-chart"></div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+          </div>
+
+          <div class="col-sm-2">
+           
+           <div class="row">
+            <div class="col-sm-12">
+             <div class="chart-wrapper">
+              <div class="chart-title">
+                Contrat  
+              </div>
+              <div class="chart-stage">
+                <div id="contrat-row-chart"></div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+           <div class="row">
+            <div class="col-sm-12">
+             <div class="chart-wrapper">
+              <div class="chart-title">
+                Temps de travail
+              </div>
+              <div class="chart-stage">
+                <div id="tps-row-chart"></div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+           <div class="row">
+            <div class="col-sm-12">
+             <div class="chart-wrapper">
+              <div class="chart-title">
+                Experience requise 
+              </div>
+              <div class="chart-stage">
+                <div id="exp-row-chart"></div>
+              </div>
+             </div>
+            </div>
+           </div>
+       
+          </div>
+
+          <div class="col-sm-4">
+
+           <div class="row">
+            <div class="col-sm-12"> 
+             <div class="chart-wrapper">
+              <div class="chart-title">
+                Communes
+              </div>
+              <div class="chart-stage">
+                <div id="map" style="width: 400px; height: 400px"></div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+           <div class="row">
+            <div class="col-sm-12"> 
+             <div class="chart-wrapper">
+              <div class="chart-title">
+                Nombre d'offres
+              </div>
+              <div class="chart-stage">
+                <div id="number-records-nd"></div>
+              </div>
+             </div>
+            </div>  
+           </div>
+
+          </div>
+
+
+    </div>
+
+  </div>
+
+  <hr>
+  <p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a></p>
+
+  <script src="./static/lib/js/jquery.min.js"></script>
+  <script src="./static/lib/js/bootstrap.min.js"></script>
+  <script src="./static/lib/js/underscore-min.js"></script>
+  <script src="./static/lib/js/crossfilter.js"></script>
+  <script src="./static/lib/js/d3.min.js"></script>
+  <script src="./static/lib/js/dc.min.js"></script>
+  <script src="./static/lib/js/queue.js"></script>
+  <script src="./static/lib/js/leaflet.js"></script>
+  <script src="./static/lib/js/leaflet-heat.js"></script>
+  <script src="./static/lib/js/keen.min.js"></script>
+  <script src='./static/js/graphs.js' type='text/javascript'></script>
+
+
+</body>
+</html>
